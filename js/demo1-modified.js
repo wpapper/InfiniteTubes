@@ -208,10 +208,10 @@ Tunnel.prototype.render = function() {
 // All needed textures
 var textures = {
   "stone": {
-    url: "https://www.dropbox.com/s/nh6ct7uefb39kf7/wildtextures-brushed-metal-sheets.jpg?raw=1"
+    url: "https://raw.githubusercontent.com/wpapper/InfiniteTubes/master/img/demo1/wildtextures-brushed-metal-sheets.jpg"
   },
   "stoneBump": {
-    url: "https://www.dropbox.com/s/qvgs89459emp4v8/wildtextures-metal-sheet-scratched-brushed.jpg?raw=1"
+    url: "https://raw.githubusercontent.com/wpapper/InfiniteTubes/master/img/demo1/wildtextures-metal-sheet-scratched-brushed.jpg"
   }
 };
 // Create a new loader
