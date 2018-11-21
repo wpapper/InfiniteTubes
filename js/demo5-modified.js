@@ -11,7 +11,7 @@ function Tunnel() {
 }
 
 Tunnel.prototype.init = function() {
-  this.speed = 22;
+  this.speed = 1;
 
   this.mouse = {
     position: new THREE.Vector2(ww * 0.5, wh * 0.5),
