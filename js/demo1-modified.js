@@ -81,10 +81,10 @@ Tunnel.prototype.createMesh = function() {
   
   // Add two lights in the scene
   // An hemisphere light, to add different light from sky and ground
-  var light = new THREE.HemisphereLight( 0xffffbb, 0x887979, 0.9);
+  var light = new THREE.HemisphereLight( 0xffffff, 0x887979, 1);
 this.scene.add( light );
   // Add a directional light for the bump
-  var directionalLight = new THREE.DirectionalLight( 0xffffff, 0.8 );
+  var directionalLight = new THREE.DirectionalLight( 0xffffff, 1 );
 this.scene.add( directionalLight );
   // Repeat the pattern
   this.tubeMaterial.map.wrapS = THREE.RepeatWrapping;
