@@ -211,7 +211,8 @@ var textures = {
     url: "https://raw.githubusercontent.com/wpapper/InfiniteTubes/master/img/demo1/wildtextures-brushed-metal-sheets.jpg"
   },
   "stoneBump": {
-    url: "https://raw.githubusercontent.com/wpapper/InfiniteTubes/master/img/demo1/wildtextures-metal-sheet-scratched-brushed.jpg"
+    // url: "https://raw.githubusercontent.com/wpapper/InfiniteTubes/master/img/demo1/wildtextures-metal-sheet-scratched-brushed.jpg"
+    url: "https://raw.githubusercontent.com/wpapper/InfiniteTubes/master/img/demo1/wildtextures-brushed-metal-sheets.jpg"
   }
 };
 // Create a new loader
