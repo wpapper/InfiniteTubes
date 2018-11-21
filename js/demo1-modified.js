@@ -74,9 +74,9 @@ Tunnel.prototype.createMesh = function() {
   // Set side to BackSide since the camera is inside the tunnel
   this.tubeMaterial = new THREE.MeshStandardMaterial({
     side: THREE.BackSide,
-    map: textures.stone.texture,
-    bumpMap: textures.stoneBump.texture,
-    bumpScale: 0.0003
+    map: textures.stone.texture
+    // bumpMap: textures.stoneBump.texture,
+    // bumpScale: 0.0003
   });
   
   // Add two lights in the scene
@@ -208,7 +208,8 @@ Tunnel.prototype.render = function() {
 // All needed textures
 var textures = {
   "stone": {
-    url: "https://raw.githubusercontent.com/wpapper/InfiniteTubes/master/img/demo1/wildtextures-brushed-metal-sheets.jpg"
+    // url: "https://raw.githubusercontent.com/wpapper/InfiniteTubes/master/img/demo1/wildtextures-brushed-metal-sheets.jpg"
+    url: "https://raw.githubusercontent.com/wpapper/InfiniteTubes/master/img/demo1/rawpixel-645296-unsplash.jpg"
   },
   "stoneBump": {
     // url: "https://raw.githubusercontent.com/wpapper/InfiniteTubes/master/img/demo1/wildtextures-metal-sheet-scratched-brushed.jpg"
